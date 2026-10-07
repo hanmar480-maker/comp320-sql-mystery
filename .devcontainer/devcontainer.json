@@ -1,0 +1,11 @@
+{
+  "name": "env3d-lessons devcontainer",
+  "features": {},
+  // Disabling copilot
+  "postAttachCommand": "rm -rf ~/.vscode-remote/extensions/github.copilot* && chmod -w ~/.vscode-remote/extensions && exit",
+  "customizations": {
+      "settings": {
+        "github.copilot.enable": {"*":false} // Disable GitHub Copilot
+      }    
+    }  
+}
