@@ -1,0 +1,1 @@
+select description  from crime_scene_report where type = 'murder' AND city = 'SQL City' AND date = 20180115;

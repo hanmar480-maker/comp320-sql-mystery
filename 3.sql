@@ -1,0 +1,1 @@
+select transcript  from interview where person_id IN (14887,16371);

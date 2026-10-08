@@ -1,0 +1,1 @@
+select id from person where  name like '%Annabel%' AND address_street_name = 'Franklin Ave' OR address_number = (select max(address_number) from person where address_street_name = 'Northwestern Dr');
